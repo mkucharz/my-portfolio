@@ -34,8 +34,8 @@ services:
     # Networks
     networks:
       - default
-      - ${APP_NAME:-webapp}_default
+      - my-portfolio_default
 
 networks:
-  ${APP_NAME:-webapp}_default:
+  my-portfolio_default:
     external: true
